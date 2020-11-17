@@ -1,0 +1,46 @@
+.jumbotron {
+    background: linear-gradient(to right, #0beed0, #109cd3);
+}
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 5px grey;
+}
+.nav {
+    margin-top: -40px;
+    background: #3ebdc6;
+}
+a.active, a:hover {
+    font-weight: 600;
+}
+.portfolio {
+    width: 80%;
+    margin: 20px auto;
+}
+.socmed, .wattpad {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-poster .card {
+    /* position: relative; */
+    margin: 0 20px;
+    /* width: 20%; */
+}
+.portfolio img {
+    width: 100%;
+    /* padding: 0 30px; */
+    /* position: absolute; */
+}
+/* .portfolio img:hover {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3)
+} */
+.slick-prev, .slick-next {
+    transform: scale(1.5);
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
